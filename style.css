@@ -7,31 +7,34 @@
 body{
     font-family: "Roboto", sans-serif;
     color: rgb(11, 11, 11);
-    font-size: large;
+    /* font-size: large; */
      /* background: linear-gradient(to left, #7d15a9, #7e62e1); */
         /* -webkit-background-clip: text; */
         /* -webkit-text-fill-color: transparent; */
         /* background-clip: text; */
         /* color: transparent; */
-    background: linear-gradient(to right,rgb(89, 18, 220),rgb(61, 16, 107));
+    /* background: linear-gradient(to right,rgb(197, 187, 187),rgb(223, 132, 40)); */
+background-color:rgb(33, 33, 75);
     display: flex;
     justify-content: center;
     align-items: center;
        
 }
 .container{
+    z-index: 1;
     margin-top: 15vh;
     width:400px;
     height:auto;
     padding: 20px;
-    background-color:#7e62e1;
+    background:linear-gradient(135deg,#7e62e1,#610969);
+    /* background: linear-gradient(135deg, #7d15a9, #7e62e1, #812fe5, #129ac9); */
 border-radius: 15px;
 box-shadow: 
 0px 0px 50px 10px #7d15a9,
-0 0 20px rgba(173, 88, 31, 0.8),
-0 0 30px rgba(108, 119, 11, 0.8),
-0 0 60px rgba(112, 90, 35, 0.8),
-0 0 100px rgba(44, 4, 114, 0.8),
+0 0 20px rgba(97, 31, 210, 0.8),
+0 0 30px rgba(42, 83, 142, 0.8),
+0 0 60px rgba(31, 5, 133, 0.8),
+0 0 100px rgba(30, 5, 73, 0.8),
 0 0 150px rgba(129, 50, 239, 0.8);
 }
 .name{
@@ -40,6 +43,7 @@ box-shadow:
     display:flex;
     justify-content: center;
     align-items: center;
+    font-size: larger;
 }
 
 .name img{
@@ -51,7 +55,7 @@ box-shadow:
     object-fit: cover;
     margin-left: 5px;
     border-radius: 100%;
-    mix-blend-mode:difference;
+    mix-blend-mode:lighten;
 }
 .add{
     display: flex;
